@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+// tugas dirumah bahasa pemograman 28/04/2020
+// ini adalah prototype function
+
+void pengurangan ( int l, int i){
+	cout << (l - i);
+}
+void penjumlahan ( int s, int m){
+	cout << (s + m);
+}
+void perkalian ( int w, int r){
+	cout << (w * r);
+}
+double pembagian ( double u, double a){
+	cout << (u / a);
+}
+int main (){
+	cout<<"Hasil fungsi pengurangan"<<endl;
+	pengurangan (10, 5);
+	cout<<endl;
+	
+	cout<<"Hasil fungsi penjumlahan"<<endl;
+	penjumlahan (20, 20);
+	cout<<endl;
+	
+	cout<<"Hasil fungsi perkalian"<<endl;
+	perkalian (7, 6);
+	cout<<endl;
+	
+	cout<<"Hasil fungsi pembagian"<<endl;
+	pembagian (32.4, 16.3);
+}
